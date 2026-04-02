@@ -206,6 +206,19 @@ podcasts.forEach((p) => {
     </audio>
   `;
 
+  // Add click event to image for modal
+  const imgElement = card.querySelector('.podcast-img');
+  if (imgElement) {
+    imgElement.style.cursor = 'pointer';
+    imgElement.addEventListener('click', () => {
+      const modal = document.getElementById('image-modal');
+      const modalImg = document.getElementById('modal-img');
+      modalImg.src = p.img;
+      modalImg.alt = p.title;
+      modal.style.display = 'flex';
+    });
+  }
+
   container.appendChild(card);
 
   const audio = card.querySelector('audio');
@@ -245,4 +258,22 @@ if (backToTop) {
 const podcastCount = document.getElementById("podcast-count");
 if (podcastCount) {
   podcastCount.textContent = podcasts.length;
+}
+
+// Modal close functionality
+const modal = document.getElementById('image-modal');
+const modalClose = document.querySelector('.modal-close');
+
+if (modalClose) {
+  modalClose.addEventListener('click', () => {
+    modal.style.display = 'none';
+  });
+}
+
+if (modal) {
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      modal.style.display = 'none';
+    }
+  });
 }
