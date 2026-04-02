@@ -32,6 +32,26 @@ audio {
   margin-top: 10px;
 }
 
+.intro-section {
+  max-width: 800px;
+  margin: 0 auto 30px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  border-left: 5px solid #2c3e50;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #333;
+}
+
+.intro-section p {
+  margin-bottom: 15px;
+}
+
+.intro-section p:last-child {
+  margin-bottom: 0;
+}
+
 #podcast-menu {
   background: #ffffff;
   border: 1px solid #ddd;
