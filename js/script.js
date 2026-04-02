@@ -30,7 +30,7 @@ L'audio se termine sur un principe fondamental et contre-intuitif : **le test pe
   },
   {
     title: "02 - Les 7 principes du test logiciel",
-    img: "./media/img/02-le-test-logiciel.png",
+    img: "./media/img/02-Le-test-logiciel.png",
     description: `Cet audio est une analyse approfondie des concepts clés du "syllabus d'introduction au test logiciel", pensée comme une session de révision stratégique pour préparer les étudiants à un examen exigeant. Il se concentre spécifiquement sur la psychologie du testeur, l'organisation de son travail et les pièges conceptuels à éviter lors de l'examen.
 
 Voici les principaux concepts décortiqués par les intervenants :
