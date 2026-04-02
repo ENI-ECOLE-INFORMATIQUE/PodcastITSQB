@@ -95,7 +95,31 @@ L'audio se conclut sur une réflexion vertigineuse concernant l'avenir : l'Intel
   },
   {
     title: "04 - Niveaux et Types de Tests",
-    description: "Comment tester en Scrum",
+    description: `Cet audio est une exploration approfondie de l'architecture mentale du test logiciel, structurée pour déjouer les pièges classiques de la certification ISTQB Fondation et clarifier le vocabulaire professionnel. L'épisode utilise d'emblée l'exemple tragique du crash de la sonde Mars Climate Orbiter en 1999 (dû à un défaut de communication entre un code en unités métriques et un code en unités anglo-saxonnes) pour illustrer les conséquences désastreuses d'une mauvaise stratégie de test.
+
+Le cœur de l'audio s'articule autour d'une matrice fondamentale divisée en deux dimensions clés :
+
+**1. Les Niveaux de test (Le "Où" géographique)**
+Les niveaux définissent la strate du logiciel que l'on est en train d'examiner. L'audio en détaille quatre, du plus bas vers le plus haut :
+*   **Le test de composant :** C'est l'échelle microscopique, au plus près des développeurs. On teste une fonction isolée artificiellement à l'aide de "bouchons" (stubs) pour s'assurer que son algorithme de base est correct, sans influence extérieure.
+*   **Le test d'intégration :** C'est le moment de la collision. On ne teste plus les composants eux-mêmes, mais **leurs jointures et les flux de données entre eux**. C'est à ce niveau précis que l'erreur de la sonde martienne aurait dû être détectée.
+*   **Le test système :** On prend du recul pour analyser le produit complet et traquer les **comportements émergents**, c'est-à-dire les défauts qui n'apparaissent que lorsque tout fonctionne ensemble, comme la saturation de la mémoire après plusieurs heures d'utilisation.
+*   **Le test d'acceptation :** La responsabilité passe du côté des utilisateurs ou du client. La question n'est plus "le logiciel respecte-t-il les spécifications techniques ?", mais **"résout-il le vrai problème dans le monde réel ?"**. L'audio illustre cela avec l'analogie d'une voiture de sport techniquement parfaite (niveau système validé), mais inutile si le client voulait emmener ses enfants et leurs violoncelles à l'école (niveau acceptation échoué).
+
+**2. Les Types de test (Le "Quoi" ou l'angle d'observation)**
+Les types définissent l'objectif précis de l'observation à un instant donné :
+*   **Le type fonctionnel :** On évalue **ce que** le système est censé faire (ex: cliquer sur "ajouter au panier" fait bien apparaître l'article).
+*   **Le type non-fonctionnel :** On évalue **comment** le système s'y prend. Cela concerne les caractéristiques de qualité mesurables comme la rapidité, la robustesse sous une lourde charge (ex: simuler 10 000 utilisateurs pendant le Black Friday) ou la sécurité.
+*   **Le type structurel :** Connu sous le nom de "boîte blanche", ce test ignore l'interface pour se plonger dans la couverture de l'architecture interne du code. Il vérifie que toutes les branches (comme les carrefours "si/sinon" d'un algorithme) ont bien été testées, afin d'éviter de laisser des zones d'ombre qui pourraient se transformer en failles de sécurité.
+
+**3. Le croisement des dimensions et la phase critique de l'après-correction**
+L'audio insiste sur le fait que la vraie puissance réside dans le croisement de cette matrice : on peut tout à fait réaliser un test non-fonctionnel (mesurer le temps de calcul) au niveau le plus bas du composant.
+
+Enfin, l'épisode met en garde contre la phase la plus dangereuse du cycle de vie : le moment où le développeur annonce qu'un bug est corrigé. Les intervenants distinguent strictement deux actions qui s'ensuivent :
+*   **Le test de confirmation :** Action chirurgicale consistant à rejouer le scénario exact du bug pour s'assurer qu'il a bien disparu.
+*   **Le test de régression :** Action consistant à scruter tout le reste du système pour s'assurer que la réparation n'a pas provoqué d'**effet de bord** destructeur ailleurs. Comparé au jeu de Jenga, c'est l'activité numéro un que les équipes automatisent massivement la nuit pour survivre aux déploiements continus.
+
+L'audio se conclut sur une réflexion ouverte : bien que toute cette architecture garantisse que le logiciel fait ce qui est prévu, le prochain défi de l'esprit humain est d'utiliser les tests exploratoires pour traquer l'inconcevable et l'imprévisible.`,
     audio: "./media/audio/04-Niveaux-et-Types-de-Tests.mp3",
   },
   {
