@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>ISTQB Podcasts by ENI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial; margin: 0; background: #f4f4f4; }
+    header { background: #2c3e50; color: white; padding: 1rem; text-align: center; }
+    .container { padding: 20px; }
+    .card {
+      background: white;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .title { font-size: 18px; font-weight: bold; }
+    .desc { font-size: 14px; color: #555; }
+    audio { width: 100%; margin-top: 10px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🎧 Podcasts ISTQB by ENI</h1>
+  <p>Apprends les bases du test logiciel en audio</p>
+  <p>Révises ton ISTQB avec nos podcasts</p>
+</header>
+
+<div class="container" id="podcast-list"></div>
+
+<script>
+const podcasts = [
+  {
+    title: "Introduction au test logiciel",
+    description: "Comprendre les bases de l'ISTQB",
+    audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+  },
+  {
+    title: "Les niveaux de test",
+    description: "Unitaires, intégration, système",
+    audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+  },
+  {
+    title: "Tests Agile",
+    description: "Comment tester en Scrum",
+    audio: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+  }
+];
+
+const container = document.getElementById("podcast-list");
+
+podcasts.forEach(p => {
+  const card = document.createElement("div");
+  card.className = "card";
+
+  card.innerHTML = `
+    <div class="title">${p.title}</div>
+    <div class="desc">${p.description}</div>
+    <audio controls>
+      <source src="${p.audio}" type="audio/mpeg">
+    </audio>
+  `;
+
+  container.appendChild(card);
+});
+</script>
+
+</body>
+</html>
