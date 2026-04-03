@@ -162,6 +162,7 @@ L'épisode conclut sur la forte synergie entre les deux mondes : le test statiqu
   },
   {
     title: "06 - Techniques de test boîte noire",
+    img: "./media/img/06-Boite-noire.png",
     description: `Cet audio est une exploration pédagogique approfondie des **techniques de conception de test en boîte noire**, conçue pour extraire l'essence du syllabus de certification ISTQB Fondation et rendre ces concepts denses facilement digestes pour les révisions. 
 
 Voici les concepts clés qui y sont décortiqués :
@@ -189,6 +190,7 @@ Enfin, l'épisode se clôture sur une réflexion philosophique amusante : avec l
   },
   {
     title: "07 - Techniques de test boîte blanche",
+    img: "./media/img/07-Boite-blanche.png",
     description: `Cet audio est une plongée passionnante dans l'architecture de la qualité logicielle, conçue pour expliquer comment l'ingénierie empêche nos infrastructures numériques de s'effondrer. L'épisode s'ouvre sur un exemple glaçant : le crash de Knight Capital en 2012, où l'entreprise a perdu 460 millions de dollars en 45 minutes à cause d'une mise à jour ayant réactivé un vieux code mort. 
 
 Voici les concepts clés qui y sont décortiqués pour conjurer ce type de désastre :
@@ -223,6 +225,7 @@ L'épisode se conclut sur une perspective vertigineuse : avec l'arrivée des IA 
   },
   {
     title: "08 - Techniques basées sur l'expérience",
+    img: "./media/img/08-Techniques-basees-sur-lexperience.png",
     description: `Cet audio est une analyse captivante des **techniques de test basées sur l'expérience**, spécialement pensée pour les étudiants révisant leur certification ISTQB Fondation. L'épisode débute de manière spectaculaire en rappelant l'explosion de la fusée Ariane 5 en 1996 (due à un bug de conversion informatique), pour illustrer une idée forte : le flair et l'intuition humaine peuvent parfois anticiper des désastres que les scénarios mathématiques figés ratent.
 
 L'audio décortique le "trio indispensable" des techniques basées sur l'expérience :
@@ -251,7 +254,8 @@ L'épisode se clôture sur une réflexion vertigineuse concernant l'avenir de l'
   },
   {
     title: "09 - Gestion des tests et planification",
-    description: `Cet audio est un décryptage passionnant de la **gestion des tests et de la planification**, un sujet particulièrement pertinent pour les personnes préparant la certification ISTQB Fondation. L'objectif central des intervenants est de démontrer que structurer ses tests n'est pas une lourdeur bureaucratique, mais bien le pilier stratégique qui empêche un projet de s'écraser contre un mur.
+        img: "./media/img/09-Collaboration-et-criteres-acceptation.png",
+        description: `Cet audio est un décryptage passionnant de la **gestion des tests et de la planification**, un sujet particulièrement pertinent pour les personnes préparant la certification ISTQB Fondation. L'objectif central des intervenants est de démontrer que structurer ses tests n'est pas une lourdeur bureaucratique, mais bien le pilier stratégique qui empêche un projet de s'écraser contre un mur.
 
 Voici les concepts clés détaillés et illustrés dans cet épisode :
 
