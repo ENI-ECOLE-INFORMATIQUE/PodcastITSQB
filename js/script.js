@@ -60,6 +60,7 @@ Enfin, il souligne l'importance de l'**indépendance** : un testeur sans attache
   },
   {
     title: "03 - Test dans le Cycle de Vie Logiciel",
+    img: "./media/img/03-Le-test-dans-le-cycle-de-vie-logiciel.png",
     description: `Cet audio est une analyse approfondie du **test dans le cycle de vie logiciel**, conçue pour démystifier la place du testeur et aider les étudiants, notamment ceux préparant la certification ISTQB Fondation. L'idée centrale est que le test n'est pas un examen final isolé, mais un "compagnon de voyage" qui s'adapte au rythme de l'équipe de développement.
 
 Voici les concepts clés qui y sont détaillés :
@@ -96,6 +97,7 @@ L'audio se conclut sur une réflexion vertigineuse concernant l'avenir : l'Intel
   },
   {
     title: "04 - Niveaux et Types de Tests",
+    img: "./media/img/04-Niveaux-vs-types-de-test.png",
     description: `Cet audio est une exploration approfondie de l'architecture mentale du test logiciel, structurée pour déjouer les pièges classiques de la certification ISTQB Fondation et clarifier le vocabulaire professionnel. L'épisode utilise d'emblée l'exemple tragique du crash de la sonde Mars Climate Orbiter en 1999 (dû à un défaut de communication entre un code en unités métriques et un code en unités anglo-saxonnes) pour illustrer les conséquences désastreuses d'une mauvaise stratégie de test.
 
 Le cœur de l'audio s'articule autour d'une matrice fondamentale divisée en deux dimensions clés :
@@ -125,6 +127,7 @@ L'audio se conclut sur une réflexion ouverte : bien que toute cette architectur
   },
   {
     title: "05 - Test Statique et Revues",
+    img:"./media/img/05-Le-test-statique-et-les-revues.png",
     description: `Cet audio explore un concept central et presque contre-intuitif de la certification ISTQB Fondation : **le test statique**. Il s'agit d'une approche qui offre le meilleur retour sur investissement en ingénierie logicielle, reposant sur le paradoxe de tester le logiciel sans jamais exécuter la moindre ligne de code.
 
 Voici les concepts clés qui y sont décortiqués :
